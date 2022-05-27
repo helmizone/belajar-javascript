@@ -4,8 +4,19 @@
 // soal: buat function yang menentukan kata tersebut adalah palindrome atau bukan
 
 
-function isPalindrome(string) {
+function isPalindrome(palin) {
     // code here
+    palindromee = '';
+
+    for(i = palin.length-1; i >= 0; i--){
+        palindromee += palin[i] 
+    }
+
+    if(palindromee === palin){
+        return true
+    } else{
+        return false
+    }
 
 };
 
